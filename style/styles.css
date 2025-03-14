@@ -23,8 +23,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.container ul{
+.container ul, a{
     display: flex;
-    padding: 30px;
-   
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+list-style: none;    
+}
+.container a:hover{
+    border-radius: 46px;
+    background-color:rgb(230, 83, 60);
+    
 }
