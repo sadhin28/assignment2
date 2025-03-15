@@ -452,7 +452,7 @@ top: 40px;
     /* border: red solid 2px; */
     margin: 0 auto;
     position: relative;
-    top:300px;
+    top:360px;
     text-align: center;
 }
 .habit-container{
@@ -790,10 +790,7 @@ text-align: center;
     line-height: 24px;
     text-align: justify;
 }
-.habit{
-    position: relative;
-    top: 440px;
-}
+
 .habit-container{
     position: relative;
     top: 20px;
