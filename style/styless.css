@@ -452,7 +452,7 @@ top: 40px;
     /* border: red solid 2px; */
     margin: 0 auto;
     position: relative;
-    top:450px;
+    top:300px;
     text-align: center;
 }
 .habit-container{
@@ -472,14 +472,51 @@ top: 40px;
 
     
 }
-.habit .circle{
+.habit .circle1{
     height: 150px;
     width: 150px;
-    border: 3px rebeccapurple solid;
+    border: 3px rgb(254, 252, 255) solid;
     border-radius:100%;
     background-image:url(/images/image\ 3.png);
     background-repeat: no-repeat;
     background-size:cover;
+}
+.habit .circle2{
+    height: 150px;
+    width: 150px;
+    border: 3px rgb(246, 243, 249) solid;
+    border-radius:100%;
+    background-image:url(/images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.habit .circle3{
+    height: 150px;
+    width: 150px;
+    border: 3px rgb(254, 253, 255) solid;
+    border-radius:100%;
+    background-image:url(/images/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.habit .circle4{
+    height: 150px;
+    width: 150px;
+    border: 3px rgb(249, 249, 249) solid;
+    border-radius:100%;
+    background-image:url(/images/image\ 5.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.habit p{
+   
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
 }
 @media screen and (max-width:576px){
    
@@ -619,11 +656,24 @@ top: 40px;
     }
     .banner-img {
             position: relative;
-            top: 338px;
+            top: 328px;
             max-width: 540px;
             height: 100%;
             /* border: black solid; */
             margin: 0 auto;
+    }
+    .habit{
+        position: relative;
+        top: 600px;
+    }
+    .habit-container{
+        position: relative;
+        top: 20px;
+        display: grid;
+        grid-template-columns:repeat(1,);
+        padding:0px;
+        margin: 0px;
+        gap: 30px;
     }
     
     footer {
@@ -739,6 +789,14 @@ top: 40px;
     font-weight: 600;
     line-height: 24px;
     text-align: justify;
+}
+.habit{
+    position: relative;
+    top: 440px;
+}
+.habit-container{
+    position: relative;
+    top: 20px;
 }
 .banner-img {
     max-width: 540px;
