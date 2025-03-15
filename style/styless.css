@@ -22,6 +22,7 @@ height: 44px;
 padding: 10px 24px 10px 24px;
 
 }
+
 .btn1{
     border-radius: 41px;
 
@@ -126,6 +127,7 @@ transition: 0.3s;
 /* banner-section  */
 .banner-section {
     max-width:1140px;
+    height: 510px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -139,6 +141,12 @@ transition: 0.3s;
     align-content: center;
     padding: 20px;
     
+}
+.banner-text .banner-button{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
 }
 .banner-text h1{
     color: rgb(255, 255, 255);
@@ -465,33 +473,9 @@ top: 40px;
         font-weight: 700;
         line-height: 70px;
     }
-    .banner-card1 {
-        position: relative;
-        width: 193px;
-        height: 98px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        bottom: 643px;
-        left: 257px;
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-    }
-    .banner-card2 {
-        position: relative;
-        width: 193px;
-        height: 98px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        bottom: 335px;
-        left: 21px;
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-        display: flex
-;
-        align-items: center;
-        gap: 10px;
+    .banner-img {
+        max-width: 540px;
+        margin: 0 auto;
     }
     .influence-nav ul {
         display: flex
@@ -598,6 +582,13 @@ top: 40px;
         position: relative;
         top: 2900px;
     }
+    banner-img {
+        max-width: 540px;
+        /* border: black solid; */
+        margin: 0 auto;
+        max-height: 613px;
+    }
+   
    
 }
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -670,6 +661,7 @@ top: 40px;
     }
     .banner-section {
         max-width: 1140px;
+        /* max-height:556px; */
         margin: 0 auto;
         display: flex
     ;
@@ -693,4 +685,19 @@ top: 40px;
         font-weight: 700;
         line-height: 70px;
     }
+}
+.banner-text p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: justify;
+}
+.banner-img {
+    max-width: 540px;
+    /* border: black solid; */
+    margin: 0 auto;
+}
+
 }
