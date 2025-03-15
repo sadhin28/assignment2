@@ -452,8 +452,7 @@ top: 40px;
     .banner-section {
         max-width: 1140px;
         margin: 0 auto;
-        display: flex
-    ;
+        display: flex;
         justify-content: space-between;
         position: relative;
         top: 80px;
@@ -575,6 +574,23 @@ top: 40px;
         background: rgb(224, 44, 109);
         cursor: pointer;
     }
+    .banner-text {
+        position: relative;
+        top: 420px;
+        max-width: 540px;
+        /* border: 2px blue solid; */
+        align-content: center;
+        text-align: center;
+    }
+    .banner-img {
+            position: relative;
+            top: 338px;
+            max-width: 540px;
+            height: 100%;
+            /* border: black solid; */
+            margin: 0 auto;
+    }
+    
     footer {
         height: 200px;
         max-width: 100%;
@@ -582,12 +598,7 @@ top: 40px;
         position: relative;
         top: 2900px;
     }
-    banner-img {
-        max-width: 540px;
-        /* border: black solid; */
-        margin: 0 auto;
-        max-height: 613px;
-    }
+   
    
    
 }
