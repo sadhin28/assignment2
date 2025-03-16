@@ -626,7 +626,7 @@ top: 10px;
 }
 .training-image{
    max-width: 1040px;
-   /* height: 400px; */
+   height: 400px;
    margin: 0 auto;
    border: white 2px solid;
    position: relative;
@@ -639,7 +639,8 @@ top: 10px;
     width: 300px;
     height: 200px;
     border: white solid 2px;
-
+    background-image: url(/images/exercise1.jpg);
+    background-size:contain;
 }
 .training-image .box2 {
     width: 425px;
@@ -648,6 +649,8 @@ top: 10px;
     position: relative;
     bottom: 198px;
     left: 306px;
+    background-image: url(/images/exercise2.png);
+    background-size:contain;
 }
 .training-image .box3 {
     width: 300px;
@@ -656,6 +659,8 @@ top: 10px;
     position: relative;
     bottom: 397px;
     left: 733px;
+    background-image: url(/images/exercise3.png);
+    background-size:contain;
 }
 .training-image .box4 {
     width: 425px;
@@ -663,6 +668,8 @@ top: 10px;
     border: white solid 2px;
     position: relative;
     bottom: 400px;
+    background-image: url(/images/exercise4.png);
+    background-size:contain;
 }
 .training-image .box5 {
     width: 300px;
@@ -671,6 +678,8 @@ top: 10px;
     position: relative;
     bottom: 597px;
     left: 430px;
+    background-image: url(/images/exercise5.jpg);
+    background-size:contain;
 }
 .training-image .box6 {
     width: 300px;
@@ -679,6 +688,8 @@ top: 10px;
     position: relative;
     bottom: 801px;
     left: 732px;
+    background-image: url(/images/exercise6.jpg);
+    background-size:contain;
 }
 .training-text{
    max-width: 1040px;
