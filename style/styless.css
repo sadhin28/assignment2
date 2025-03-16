@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* button */
 
 *{
@@ -8,10 +8,10 @@
 }
 body{
     color: white;
-    font-family:Poppins;
+    font-family: Inter;
     background-color: black;
 body{
-    font-family:Poppins;
+    font-family: Inter;
     /* background-color: black; */
 }
 .btn{
@@ -49,14 +49,14 @@ padding: 10px 24px 10px 24px;
     box-shadow: 0 4px 8px 0 rgba(13, 2, 2, 0.953); 
 }
 .header a:hover{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
     border-radius: 46px;
 
-    background: rgb(230, 83, 60);
+    background: rgb(224, 44, 109);
 transition: 0.3s;
     padding:20px;
     border-radius: 10px;
-    font-family: Poppins;
+    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -77,7 +77,7 @@ transition: 0.3s;
 .influence-nav a{
     text-decoration: none;
     color: whitesmoke;
-    font-family: Poppins;
+    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -151,14 +151,14 @@ transition: 0.3s;
 }
 .banner-text h1{
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: Inter;
     font-size: 52px;
     font-weight: 700;
     line-height: 70px;
 }
 .banner-text p{
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -242,7 +242,7 @@ text-align:left;
 }
 .banner-text button{
     color: rgb(255, 255, 255);
-font-family: Poppins;
+    font-family: Inter;
 font-size: 16px;
 font-weight: 700;
 line-height: 24px;
@@ -251,7 +251,7 @@ position: relative;
 top: 30px;
 }
 .banner-text button:hover{
-    background-color: rgb(250, 163, 12);
+   background-color: blue;
 }
 .banner-img img{
     width:100%;
@@ -375,7 +375,7 @@ border-radius: 16px;
  }
  .frature-product-text p{
    color: rgb(108, 108, 108);
-font-family: Poppins;
+   font-family: Inter;
 font-size: 16px;
 font-weight: 700;
 line-height: 28px;
@@ -383,7 +383,7 @@ line-height: 28px;
  .frature-product button{
     position: relative;
     top: 20px;
-    font-family: Poppins;
+    font-family: Inter;
 font-size: 16px;
 font-weight: 700;
     height: 40px;
@@ -400,12 +400,12 @@ font-weight: 700;
     max-width: 100%;
     background: rgb(10, 8, 38);
     position: relative;
-    top: 650px;
+    top:1834px;
  }
  footer h3{
     color: rgb(255, 255, 255);
     
-font-family: Poppins;
+    font-family: Inter;
 font-size: 16px;
 text-align: center;
 position: relative;
@@ -414,7 +414,7 @@ top: 30px;
  footer p{
     color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-font-family: Poppins;
+    font-family: Inter;
 font-size: 10px;
 text-align: center;
 position: relative;
@@ -562,23 +562,38 @@ text-align: center;
     text-align: left;
 }
 .run-text h2{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
     text-align: left;
+}
+.run-text button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0px;
+text-align: center;
+}
+.run-text button:hover{
+    background-color: blue;
 }
 .run .run-img{
     height: 350px;
     width: 470px;
-    background-image: url(/images/run.jpg);
+    /* background-image: url(/images/run.jpg); */
     padding: 30px;
     display: flex;
     justify-content: center;
     background-size: cover;
     border-radius: 18px;
+}
+.run img{
+   border-radius: 18px;
+   width: 100%;
 }
 
 @media screen and (max-width:576px){
@@ -602,7 +617,7 @@ text-align: center;
     }
     .banner-text h1 {
         color: rgb(255, 255, 255);
-        font-family: Poppins;
+        font-family: Inter;
         font-size: 30px;
         font-weight: 700;
         line-height: 70px;
@@ -700,7 +715,7 @@ text-align: center;
     .frature-product button {
         position: relative;
         top: 20px;
-        font-family: Poppins;
+        font-family: Inter;
         font-size: 16px;
         font-weight: 700;
         height: 40px;
@@ -738,7 +753,24 @@ text-align: center;
         margin: 0px;
         gap: 30px;
     }
-    
+
+    .run {
+        max-width: 1140px;
+        position: relative;
+        top: 1383px;
+        margin: 0 auto;
+        height: 800px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        flex-wrap:wrap;
+        justify-content:center;
+        margin: 0 auto;
+    }
+    .run-text{
+       display: flex;
+       align-items: center;
+    }
     footer {
         height: 200px;
         max-width: 100%;
@@ -837,7 +869,7 @@ text-align: center;
     }
     .banner-text h1 {
         color: rgb(255, 255, 255);
-        font-family: Poppins;
+        font-family: Inter;
         font-size: 30px;
         font-weight: 700;
         line-height: 70px;
@@ -845,7 +877,7 @@ text-align: center;
 }
 .banner-text p {
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
