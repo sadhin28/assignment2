@@ -300,7 +300,7 @@ border-radius: 16px;
 
 
 }
-.Popular-Collection-card:hover{
+.banner-img .banner-card1 .banner-card2{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card-image{
@@ -518,6 +518,69 @@ line-height: 24px;
 letter-spacing: 0.3px;
 text-align: center;
 }
+.run{
+    max-width: 1140px;
+    position: relative;
+    top: 400px;
+    margin:0 auto;
+    height: 400px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius:18px;
+    display: flex;
+    justify-content: center;
+    grid:30px;
+}
+.run-img{
+    position: relative;
+    top:25px;
+    
+}
+.run-text{
+    position: relative;
+    top:25px;
+    gap: 40px;
+}
+.run .run-text{
+    height: 350px;
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    /* border: red 5px solid; */
+    padding:20px;
+    position: relative;
+}
+.run-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.run-text h2{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.run .run-img{
+    height: 350px;
+    width: 470px;
+    background-image: url(/images/run.jpg);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
 @media screen and (max-width:576px){
    
     /* banner-section */
@@ -683,9 +746,7 @@ text-align: center;
         position: relative;
         top: 2900px;
     }
-   
-   
-   
+     
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .conainer{
