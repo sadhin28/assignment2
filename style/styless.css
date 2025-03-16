@@ -622,7 +622,7 @@ line-height: 24px;
 letter-spacing: 0.3px;
 text-align: left;
 position: relative;
-top: 20px;
+top: 10px;
 }
 .training-image{
    max-width: 1040px;
@@ -630,7 +630,15 @@ top: 20px;
    margin: 0 auto;
    border: white 2px solid;
    position: relative;
-   top: 50px;
+   top: 60px;
+}
+.training-text{
+   max-width: 1040px;
+   height: 100px;
+   margin: 0 auto;
+   border: white 2px solid;
+   position: relative;
+   top: 40px;
 }
 
 @media screen and (max-width:576px){
