@@ -595,6 +595,16 @@ text-align: center;
    border-radius: 18px;
    width: 100%;
 }
+/* Trainings div */
+.Trainings{
+    max-width:1140px;
+    height: 570px;
+    margin: 0 auto;
+    border: white 3px solid;
+    position: relative;
+    top:469px;
+}
+
 
 @media screen and (max-width:576px){
    
