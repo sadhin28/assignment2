@@ -813,7 +813,6 @@ letter-spacing: 0.3px;
 text-align: center;
    }
    .meet-our-team-meet{
-    display: none;
     max-width:1140px;
     margin: 0 auto;
     position: relative;
@@ -821,13 +820,58 @@ text-align: center;
     border: white 2px solid;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
    }
-   .team-container{
+   .team-container1{
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
     background-image: url(/images/trainer1.png);
+    background-repeat: no-repeat;
     background-size: cover;
+   }
+   .team-container2{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .team-container3{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .team-container4{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .team-container5{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .team-container6{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
    }
    .team-container img{
         height: 100%;
@@ -1097,8 +1141,22 @@ text-align: center;
         top: 1450px;
         text-align: center;
     }
+    .meet-our-team-meet {
+        max-width: 1140px;
+        margin: 0 auto;
+        position: relative;
+        top: 1482px;
+        border: white 2px solid;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        display: grid
+;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
 }
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:802px) {
     .conainer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1210,5 +1268,6 @@ text-align: center;
     /* border: black solid; */
     margin: 0 auto;
 }
+
 
 }
