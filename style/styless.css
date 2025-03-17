@@ -683,40 +683,26 @@ line-height: 24px;
 letter-spacing: 0.3px;
 text-align: left;
     }
-    form input{
+    form input, select{
         height: 50px;
         width:200Px;
-        border-radius: 8px;
-        color: white;
-        
-
-background: rgba(255, 255, 255, 0.1);
-    }
-    form select{
-        height: 50px;
-        width:200Px;
-        border-radius: 8px;
-        color: white;
-      
-        
-
-background: rgba(255, 255, 255, 0.1);
-    }
-    form .select1{
-        height: 50px;
-        width:400Px;
         border-radius: 8px;
         color: white;
         background: rgba(255, 255, 255, 0.1);
+    }
+ 
+    form .select1 {
+        height: 50px;
+        width:400Px;
+        border-radius: 8px;
+        color: rgb(234, 103, 103);
     }
     form select option{
         height: 50px;
         width:200Px;
         border-radius: 8px;
-        background-color: black;
-        
-
-background: rgb(0, 0, 0);
+        border-radius: 42px;
+        background: rgb(0, 0, 0);
     }
     form button{
         position: relative;
@@ -728,6 +714,19 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0px;
 text-align:center;
+    }
+    form input,select{
+        padding: 10px;
+        border:none;
+        color: rgb(234, 103, 103);
+        
+    }
+    form input:hover ,select:hover, .select1:hover{
+        border-radius: 5px;
+        /* color: white; */
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(255, 254, 243);
     }
     /* bmi */
     
@@ -787,7 +786,32 @@ text-align: justify;
         width: 500px;
         /* border: white 2px solid; */
     }
-   
+   /* meet-our-team */
+   .meet-our-team{
+    max-width:900px;
+    margin: 0 auto;
+    position: relative;
+    top: 650px;
+    text-align: center;
+   }
+   .meet-our-team-meet{
+    max-width:1140px;
+    margin: 0 auto;
+    position: relative;
+    top: 750px;
+    border: white 2px solid;
+   }
+   .team-container{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: url(/images/trainer1.png);
+    background-size: cover;
+   }
+   .team-container img{
+        height: 100%;
+        width: 100%;
+   }
 
 @media screen and (max-width:576px){
    
@@ -1041,7 +1065,7 @@ text-align: justify;
         height: 50px;
         width:100%;
         border-radius: 8px;
-        color: white;
+        color: rgb(234, 103, 103);
         background: rgba(255, 255, 255, 0.1);
     }
      
