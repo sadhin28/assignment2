@@ -683,18 +683,18 @@ text-align:justify;
     background: rgb(34, 34, 34);
     position: relative;
     top: 620px;
-    border: white 3px solid;
+    /* border: white 3px solid; */
     
 }
 .bmi-container{
-    max-width: 1140px;
+    max-width: 1040px;
     height: 400px;
     position: relative;
     top:9%;
     margin: 0 auto;
-    border: white 2px solid;
+    /* border: white 2px solid; */
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 }
 table{
     height: 386px;
@@ -714,7 +714,7 @@ text-align:center;
     .BMI-Calculator-Chart {
         height: 386px;
         width: 390px;
-        border: white 2px solid;
+        /* border: white 2px solid; */
         display: flex
 ;
         flex-direction: column;
@@ -724,11 +724,81 @@ text-align:center;
     .Calculate-bmi{
         height: 386px;
         width: 590px;
-        border: white 2px solid;
+        /* border: white 2px solid; */
         flex-direction: column;
         position: relative;
         top: 5px;
         
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    form h1{
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    form p{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+    }
+    form input{
+        height: 50px;
+        width:200Px;
+        border-radius: 8px;
+        color: white;
+        
+
+background: rgba(255, 255, 255, 0.1);
+    }
+    form select{
+        height: 50px;
+        width:200Px;
+        border-radius: 8px;
+        color: white;
+      
+        
+
+background: rgba(255, 255, 255, 0.1);
+    }
+    form .select1{
+        height: 50px;
+        width:400Px;
+        border-radius: 8px;
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    form select option{
+        height: 50px;
+        width:200Px;
+        border-radius: 8px;
+        background-color: black;
+        
+
+background: rgb(0, 0, 0);
+    }
+    form button{
+        position: relative;
+        top: 10px;
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align:center;
     }
 @media screen and (max-width:576px){
    
@@ -937,7 +1007,49 @@ text-align:center;
         position: relative;
         top: 2900px;
     }
+    .Calculate-BMI {
+        height: 873px;
+        background: rgb(34, 34, 34);
+        position: relative;
+        top: 1371px;
+        padding: 10px;
+    }
+    .bmi-container {
+        /* width: 100%; */
+        margin: 0 auto;
+        max-width: 1040px;
+        /* height: 400px; */
+        position: relative;
+        top: 9%;
+        margin: 0 auto;
+       
+        display: flex
+;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .Calculate-bmi {
+        margin: 0 auto;
+        /* height: 386px; */
+        /* width: 470px; */
+        width: 87%;
+        /* border: white 2px solid; */
+        flex-direction: column;
+        position: relative;
+        top: 5px;
+    }
      
+     .BMI-Calculator-Chart {
+        height: 386px;
+        width: 490px;
+        /* border: white 2px solid; */
+        display: flex
+;
+        flex-direction: column;
+        position: relative;
+        top: 5px;
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .conainer{
@@ -1001,11 +1113,11 @@ text-align:center;
     padding: 10px;
     }
     footer {
-    height: 200px;
-    max-width: 100%;
-    background: rgb(10, 8, 38);
-    position: relative;
-    top: 1069px;
+        height: 200px;
+        max-width: 100%;
+        background: rgb(10, 8, 38);
+        position: relative;
+        top: 1549px;
     }
     .banner-section {
         max-width: 1140px;
