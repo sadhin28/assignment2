@@ -740,7 +740,7 @@ text-align:center;
     .bmi-title h1{
         color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 48px;
+font-size: 38px;
 font-weight: 900;
 line-height: 120%;
 letter-spacing: 0%;
@@ -754,6 +754,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.3px;
 text-align: left;
+text-align: justify;
     }
     .bmi{
         max-width:100%;
@@ -771,16 +772,19 @@ text-align: left;
     
     form{
         height: 500px;
-        width:100%;
+        width:500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap:10px;
         /* border: white 2px solid; */
     }
+    form button:hover{
+        background-color: blue;
+    }
     table{
-        height: 500px;
-        width: 100%;
+        height: 300px;
+        width: 500px;
         /* border: white 2px solid; */
     }
    
@@ -1033,7 +1037,13 @@ text-align: left;
         width: 100%;
         /* border: white 2px solid; */
     }
-   
+    form .select1{
+        height: 50px;
+        width:100%;
+        border-radius: 8px;
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+    }
      
 }
 @media screen and (min-width:576px) and (max-width:992px) {
