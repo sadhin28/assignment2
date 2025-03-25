@@ -165,42 +165,20 @@
                   </tr>
               </table>
             </div>
-              <form>
-                  <h1>Calculate your BMI</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                       Non quod incidunt modi necessitatibus quas fugiat?
-                  </p>
-                  <div class="form-container">
-                    <label for="height">
-                       <input placeholder="Height/cm" type="number">
-                    </label>
-                    <label for="Weight">
-                       <input placeholder="Weight/kg" type="number">
-                    </label><br><br>
-                  
-              
-                   <label for="age">
-                       <input placeholder="Age" type="number">
-                   </label>
-                   <label for="gender">
-                      <select type="multiple" id="gender">
-                          <option aria-placeholder="" value="metres" selected="selected">Male</option>
-                          <option value="inches">Female</option>
-                          <option value="inches">Others</option>
-                      </select>
-                     </label><br><br>
-                      <label for="Select an activity factor">
-                         <select class="select1" name="" id="">
-                          <option value="">Select an activity factor</option>
-                          <option value=""></option>
-                         </select>
-                      </label>
-                      <label for="button">
-                        <button class="btn">Calculate</button>
-                      </label>
-                  </div>
-                  
-               </form>
+<div class="forms">
+                
+    <h2>BMI Calculator</h2>
+    
+    
+    <input type="number" id="weight" placeholder="Enter weight in Kg"><br>
+
+    
+    <input type="number" id="height" placeholder="Enter height in (m)"><br>
+
+    <button onclick="calculateBMI()">Calculate BMI</button>
+
+    <p id="result"></p>
+</div>
         </section>
         <div class="meet-our-team">
             <h1>Meet Our Team</h1>
@@ -261,7 +239,7 @@
     <h5>&copy;2025. <i>Fitness</i> </h5>
     </footer>
    
- <script src="script.js"></script>
+ <script src="index.js"></script>
  
 </body>
 

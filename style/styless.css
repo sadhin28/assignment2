@@ -40,7 +40,7 @@ padding: 10px 24px 10px 24px;
 /* header-section */
 .header{
     /* background: rgb(224, 44, 109); */
-    background-color: black;
+    background-color: rgba(255, 2, 2, 0.799);
     overflow: hidden;
     padding: 20px 20px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
@@ -86,7 +86,7 @@ transition: 0.3s;
 }
 .container h3{
     
-    color: rgb(230, 83, 60);
+    color: rgb(255, 243, 6);
 }
 /* nav-toggle */
 .nav-toggle{
@@ -1219,6 +1219,10 @@ text-align: center;
        ;
         
     }
+    .bmi table{
+        width: 300px;
+        height: 100px;
+    }
    
 }
 @media screen and (min-width:577px) and (max-width:802px) {
@@ -1314,6 +1318,15 @@ text-align: center;
         font-weight: 700;
         line-height: 70px;
     }
+    .bmi{
+        display: flex;
+        
+        gap: 50px;
+       
+    }
+    .bmi table{
+        width: 300px;
+    }
 }
 .banner-text p {
     color: rgb(255, 255, 255);
@@ -1333,5 +1346,57 @@ text-align: center;
     /* border: black solid; */
     margin: 0 auto;
 }
-
-
+/* body { text-align: center; font-family: Arial, sans-serif; margin-top: 50px; }
+        input, button { margin: 10px; padding: 10px; font-size: 18px; }
+        #result { font-size: 20px; font-weight: bold; color: blue; } */
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 40px;
+    background-color: rgb(51, 53, 55);
+    padding: 10px;
+    border-radius: 20px;
+}
+.forms h2{
+    color: rgb(18, 18, 227);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.forms input{
+    height: 50px;
+    width:300px;
+    padding: 15px;
+    background-color: rgb(204, 214, 214);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.forms button{
+    height: 50px;
+    width:300px;
+    padding: 15px;
+    background-color: rgb(115, 11, 39);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.forms button:hover{
+    background-color: rgb(5, 35, 91);
+}
+.forms p{
+    height: 50px;
+    width:300px;
+    padding: 15px;
+    background-color: rgb(53, 54, 54);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
