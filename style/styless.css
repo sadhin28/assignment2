@@ -39,10 +39,11 @@ padding: 10px 24px 10px 24px;
 
 /* header-section */
 .header{
+    
     /* background: rgb(224, 44, 109); */
-    background-color: rgba(255, 2, 2, 0.799);
+    background-color: rgba(16, 1, 1, 0.799);
     overflow: hidden;
-    padding: 20px 20px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 20px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
@@ -56,7 +57,7 @@ padding: 10px 24px 10px 24px;
 
     background: rgb(224, 44, 109);
 transition: 0.3s;
-    padding:20px;
+    padding: 10px;
     border-radius: 10px;
     font-family: Inter;
     font-size: 16px;
